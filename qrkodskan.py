@@ -8,7 +8,7 @@ from aiogram.dispatcher import FSMContext
 from pyzbar.pyzbar import decode
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 logging.basicConfig(level=logging.INFO)
-bot_token = "6512261009:AAGnUFLaZr0Ed1K2ecR9zZYPhD3VEtgeFsQ"
+bot_token = ""
 bot = Bot(token=bot_token)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
